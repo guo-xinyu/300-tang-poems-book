@@ -1,0 +1,50 @@
+@import url(chapterContent.css);
+section.selected-page {
+  float: left;
+  width: 40%;
+  height: var(--main-body-height);
+  margin-left: 3em;
+  padding: 0 3em 0 3em;
+  border: 0.1em solid;
+  box-shadow: #e2e2e2 0 0 1em 0;
+}
+
+section.border-color-1 {
+  border-color: var(--color-1);
+}
+
+section.border-color-2 {
+  border-color: var(--color-2);
+}
+
+section.border-color-3 {
+  border-color: var(--color-3);
+}
+
+section.border-color-4 {
+  border-color: var(--color-4);
+}
+
+section.border-color-5 {
+  border-color: var(--color-5);
+}
+
+section.border-color-6 {
+  border-color: var(--color-6);
+}
+
+section.border-color-7 {
+  border-color: var(--color-7);
+}
+
+section.border-color-8 {
+  border-color: var(--color-8);
+}
+
+section.border-color-9 {
+  border-color: var(--color-9);
+}
+
+section.border-color-10 {
+  border-color: var(--color-10);
+}

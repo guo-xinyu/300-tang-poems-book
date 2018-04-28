@@ -1,0 +1,46 @@
+@import url(colors.css);
+@import url(content.css);
+@import url(mainBody.css);
+@import url(animation.css);
+@import url(config.css);
+article h1 {
+  font-size: 2em;
+}
+
+article h2 {
+  font-size: 1.5em;
+}
+
+article h3 {
+  font-size: 1.25em;
+}
+
+sub {
+  font-size: 0.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+article>header {
+  float: left;
+}
+
+article>section {
+  margin-bottom: 2em;
+}
+
+article>section>section {
+  margin-bottom: 1.5em;
+}
+
+/* article>section>header {
+  border-bottom: 1px solid #eeeeee;
+} */

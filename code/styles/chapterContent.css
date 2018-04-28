@@ -1,0 +1,20 @@
+section.little-content {
+  float: left;
+  height: var(--main-body-height);
+  width: 10em;
+  background-color: rgba(141, 196, 52, 0.1);
+  /* opacity: 0.1; */
+}
+
+section.little-content a {
+  color: black;
+}
+
+section.little-content a:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+section.little-content>header {
+  text-align: center;
+}

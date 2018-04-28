@@ -1,0 +1,366 @@
+[{
+  "name": "刘方平",
+  "code": "liufangping",
+  "route": "liu-fangping",
+  "profile": "(生卒年不详)：字、号均不详，唐玄宗天宝年间诗人，洛阳（今河南洛阳）人。"
+}, {
+  "name": "綦毋潜",
+  "code": "qiquqian",
+  "route": "qi-wuqian",
+  "profile": "(生卒年不详)：字孝通，虔州（今江西南康）人，唐代著名诗人。"
+}, {
+  "name": "张继",
+  "code": "zhangji",
+  "route": "zhang-ji",
+  "profile": "(生卒年不详)：字懿孙，汉族，湖北襄州（今湖北襄阳）人。"
+}, {
+  "name": "张乔",
+  "code": "zhangqiao",
+  "route": "zhang-qiao",
+  "profile": "（生卒年不详）：池州（今安徽省池州市贵池区）人，懿宗咸通中年进士，当时与许棠、郑谷、张宾等东南才子称“咸通十哲”。黄巢起义时，隐居九华山以终。"
+}, {
+  "name": "司空曙",
+  "code": "sikongshu",
+  "route": "sikong-shu",
+  "profile": "（生卒年不详）：字文初，唐朝人，大历十才子之一。"
+}, {
+  "name": "崔涂",
+  "code": "hantu",
+  "route": "han-tu",
+  "profile": "（生卒年不详）：字礼山，善音律，尤善长笛，唐朝江南人，今浙江桐庐、建德一带，唐末诗人"
+}, {
+  "name": "刘慎虚",
+  "code": "liushenxu",
+  "route": "liu-shenxu",
+  "profile": "（生卒年不详）：亦作昚虚，字挺卿，号易轩。"
+}, {
+  "name": "秦韬玉",
+  "code": "qindaoyu",
+  "route": "qin-daoyu",
+  "profile": "（生卒年不详）：字中明，京兆长安（今陕西西安）人，或云郃阳（今陕西合阳）人，唐代诗人。"
+}, {
+  "name": "崔曙",
+  "code": "cuishu",
+  "route": "cui-shu",
+  "profile": "（？-739）：宋州宋城县（今河南商丘）人，唐朝状元、诗人。"
+}, {
+  "name": "西鄙人",
+  "code": "xibiren",
+  "route": "xi-biren",
+  "profile": "（生卒年不详）：西北边境人，相传为唐代五言民歌《哥舒歌》的作者。"
+}, {
+  "name": "柳中庸",
+  "code": "liuzhongyong",
+  "route": "liu-zhongyong",
+  "profile": "（生卒年不详）：名淡，中庸是其字，唐代边塞诗人。"
+}, {
+  "name": "朱庆馀",
+  "code": "zhuqingyu",
+  "route": "zhu-qingyu",
+  "profile": "（生卒年不详），名可久，字庆馀，以字行，越州（今浙江绍兴）人，唐代诗人，喜老庄之道。"
+}, {
+  "name": "陈陶",
+  "code": "chentao",
+  "route": "chen-tao",
+  "profile": "（生卒年不详）,字嵩伯，自号三教布衣，鄱阳剑浦人。"
+}, {
+  "name": "益嘉运",
+  "code": "gaijiayun",
+  "route": "gai-jiayun",
+  "profile": "（生卒年不详）,唐代诗人。"
+}, {
+  "name": "张泌",
+  "code": "zhangbi",
+  "route": "zhang-bi",
+  "profile": "（生卒年不详）,《全唐诗》作曰字子澄，安徽淮南人。五代后蜀词人。是花间派的代表人物之一。"
+}, {
+  "name": "骆宾王",
+  "code": "luobinw",
+  "route": "luo-binwang",
+  "profile": "(638-684)：字观光,汉族,婺州义乌(今浙江义乌)人,唐代诗人,与王勃、杨炯、卢照邻合称“初唐四杰”。"
+}, {
+  "name": "杜审言",
+  "code": "dushenyan",
+  "route": "du-shenyan",
+  "profile": "（645-708）：字必简，襄州襄阳人（今湖北襄阳）。"
+}, {
+  "name": "王勃",
+  "code": "wangbo",
+  "route": "wang-bo",
+  "profile": "（650-676）：字子安，汉族，唐代文学家。古绛州龙门（今山西河津）人，出身儒学世家，与杨炯、卢照邻、骆宾王并称为“王杨卢骆”、“初唐四杰”。"
+}, {
+  "name": "宋之问",
+  "code": "songzhiwen",
+  "route": "song-zhiwen",
+  "profile": "(656-712)：字延清，名少连，汉族，汾州隰城人（今山西汾阳市）人，初唐时期的诗人，与沈佺期并称“沈宋”。"
+}, {
+  "name": "沈佺期",
+  "code": "shenquanqi",
+  "route": "shen-quanqi",
+  "profile": "（656-715）：字云卿，相州内黄（今安阳市内黄县）人，祖籍吴兴（今浙江湖州）。"
+}, {
+  "name": "陈子昂",
+  "code": "chenziang",
+  "route": "chen-ziang",
+  "profile": "（659-720）：字伯玉，梓州射洪（今四川省遂宁市射洪县）人，唐代诗人，初唐诗文革新人物之一。因曾任右拾遗，后世称陈拾遗。"
+}, {
+  "name": "贺知章",
+  "code": "hezhizhang",
+  "route": "he-zhizhang",
+  "profile": "（659-744）：唐代诗人、书法家。字季真，晚年自号“四明狂客”“秘书外监”，越州永兴（今浙江杭州萧山区）人，少时以诗文知名。"
+}, {
+  "name": "张旭",
+  "code": "zhangxu",
+  "route": "zhang-xu",
+  "profile": "(675-750)：字伯高，一字季明，汉族，唐朝吴县（今江苏苏州）人，开元、天宝时在世，曾任常熟县尉，金吾长史。"
+}, {
+  "name": "张九龄",
+  "code": "zhangjiuling",
+  "route": "zhang-jiuling",
+  "profile": "（678-740）：字子寿，一名博物，谥文献。汉族，唐朝韶州曲江（今广东省韶关市）人，世称“张曲江”或“文献公”。唐朝开元年间名相，诗人。"
+}, {
+  "name": "李隆基",
+  "code": "lilongji",
+  "route": "li-longji",
+  "profile": "（685-762）：即唐玄宗，先天元年（712年）至天宝十五年（756年）在位，因安史之乱而退位，是唐朝在位最长的皇帝，亦是唐朝极盛时期的皇帝。"
+}, {
+  "name": "王翰",
+  "code": "wanghan",
+  "route": "wang-han",
+  "profile": "（687-726）：字子羽，并州晋阳（今山西太原市）人，唐代边塞诗人。"
+}, {
+  "name": "王之涣",
+  "code": "wangzhihuan",
+  "route": "wang-zhihuan",
+  "profile": "（688-742）：是盛唐时期的著名诗人，字季凌，汉族，蓟门人。"
+}, {
+  "name": "孟浩然",
+  "code": "menghaoran",
+  "route": "meng-haoran",
+  "profile": "（689-740）：名浩，字浩然，号孟山人，襄州襄阳（现湖北襄阳）人，世称孟襄阳。因他未曾入仕，又称之为孟山人，是唐代著名的山水田园派诗人。"
+}, {
+  "name": "李颀",
+  "code": "liqi",
+  "route": "li-qi",
+  "profile": "（690-751）: 字、号均不详，汉族，郡望赵郡（今河北赵县），河南颍阳（今河南登封）一带人，唐代诗人。 "
+}, {
+  "name": "王湾",
+  "code": "wangwan",
+  "route": "wang-wan",
+  "profile": "（693-751）：字不详，唐代诗人，洛阳（今河南洛阳）人。"
+}, {
+  "name": "王昌龄",
+  "code": "wangchangling",
+  "route": "wang-changlin",
+  "profile": "(698-757)：字少伯，汉族，河东晋阳（今山西太原）人，又一说京兆长安人（今西安）人。盛唐著名边塞诗人。"
+}, {
+  "name": "祖咏",
+  "code": "zuyong",
+  "route": "zu-yong",
+  "profile": "（699-746）：字、号均不详， 唐代诗人，洛阳（今河南洛阳）人。少有文名，擅长诗歌创作。"
+}, {
+  "name": "王维",
+  "code": "wangwei",
+  "route": "wang-wei",
+  "profile": "（701-761）：河东蒲州（今山西运城）人，祖籍山西祁县。唐朝著名诗人、画家，字摩诘，号摩诘居士。"
+}, {
+  "name": "李白",
+  "code": "libai",
+  "route": "li-bai",
+  "profile": "（701-762）：唐代詩人。字太白，號青蓮居士。綿州昌隆（今四川江油）人。"
+}, {
+  "name": "丘为",
+  "code": "qiuwei",
+  "route": "qiu-wei",
+  "profile": "(702-797)：字、号均不详，唐代诗人，苏州嘉兴（今浙江嘉兴市）人。"
+}, {
+  "name": "崔颢",
+  "code": "cuihao",
+  "route": "cui-hao",
+  "profile": "（704-754）：汴州（今河南开封市）人，唐代诗人。"
+}, {
+  "name": "高适",
+  "code": "gaoshi",
+  "route": "gao-shi",
+  "profile": "(704-765)：字达夫，一字仲武，渤海蓨（今河北沧州）人，作为著名边塞诗人，高适与岑参并称“高岑”，与岑参、王昌龄、王之涣合称“边塞四诗人”。"
+}, {
+  "name": "常建",
+  "code": "changjain",
+  "route": "chang-jian",
+  "profile": "(708-？)：籍贯邢州（根据墓碑记载），后游历长安（现在陕西西安）人，唐代诗人，字号不详。"
+}, {
+  "name": "杜甫",
+  "code": "dufu",
+  "route": "du-fu",
+  "profile": "（712-770）：字子美，汉族，本襄阳人,唐代伟大的现实主义诗人，与李白合称“李杜”。为了与另两位诗人李商隐与杜牧即“小李杜”区别，杜甫与李白又合称“大李杜”。"
+}, {
+  "name": "岑参",
+  "code": "censhen",
+  "route": "cen-shen",
+  "profile": "（715-770）：唐代边塞诗人，荆州江陵（现湖北江陵）人，太宗时功臣岑文本重孙。"
+}, {
+  "name": "皇甫冉",
+  "code": "huangpuran",
+  "route": "huang-puran",
+  "profile": "(717-771):字茂政，男，汉族文人。祖籍甘肃泾州，出生于润州丹阳（今江苏镇江）。"
+}, {
+  "name": "元结",
+  "code": "yuanjie",
+  "route": "yuan-jie",
+  "profile": "（719-772）：字次山，号漫叟、聱叟、浪士、漫郎，唐代道家学者。"
+}, {
+  "name": "韩翃",
+  "code": "hanhong",
+  "route": "han-hong",
+  "profile": "（719-788）：字君平，南阳（今河南南阳）人，唐代诗人。是“大历十才子”之一。"
+}, {
+  "name": "钱起",
+  "code": "qianqi",
+  "route": "qian-qi",
+  "profile": "(722-780)：字仲文，汉族，吴兴（今浙江湖州市）人，唐代诗人。"
+}, {
+  "name": "刘长卿",
+  "code": "liuchangqing",
+  "route": "liu-changqing",
+  "profile": "(726-786)：字文房，汉族，宣城（今属安徽）人，唐代诗人。"
+}, {
+  "name": "僧皎然",
+  "code": "sengjiaoran",
+  "route": "seng-jiaoran",
+  "profile": "(730-799)：字清昼，本姓谢，为南朝宋谢灵运十世孙，湖州(今浙江吴兴)人。"
+}, {
+  "name": "戴叔伦",
+  "code": "daishul",
+  "route": "dai-shulun",
+  "profile": "(732-789)：唐代诗人，字幼公（一作次公），润州金坛(今属江苏)人。"
+}, {
+  "name": "李瑞",
+  "code": "lirui",
+  "route": "li-rui",
+  "profile": "（737-784）：字正已，赵州（今河北赵县）人，唐代诗人。"
+}, {
+  "name": "韦应物",
+  "code": "weiyingwu",
+  "route": "wei-yingwu",
+  "profile": "(737-792)：中国唐代诗人。汉族，长安(今陕西西安)人。诗风恬淡高远，以善于写景和描写隐逸生活著称。"
+}, {
+  "name": "卢纶",
+  "code": "lulun",
+  "route": "lu-lun",
+  "profile": "(739-799)：字允言，今保定涿州市卢家场村人。唐代诗人，大历十才子之一。"
+}, {
+  "name": "李益",
+  "code": "liyi",
+  "route": "li-yi",
+  "profile": "（750-830）：唐代诗人，字君虞，祖籍凉州姑臧（今甘肃武威市凉州区），后迁河南郑州。以边塞诗作名世，擅长绝句，尤其工于七绝。"
+}, {
+  "name": "孟郊",
+  "code": "mengjiao",
+  "route": "meng-jiao",
+  "profile": "（751-814）：字东野，唐代著名诗人。因其诗作多写世态炎凉，民间苦难，故有“诗囚”之称，与贾岛并称“郊寒岛瘦”。"
+}, {
+  "name": "权德舆",
+  "code": "quandeyu",
+  "route": "quan-deyu",
+  "profile": "（759-818）：字载之，天水略阳（今甘肃秦安东北）人，后徙润州丹徒（今江苏镇江)，唐朝文学家、宰相，起居舍人权皋之子。"
+}, {
+  "name": "张籍",
+  "code": "zhangji",
+  "route": "zhang-ji",
+  "profile": "(766-830)：字文昌，唐代诗人，和州乌江（今安徽和县乌江镇）人。"
+}, {
+  "name": "韩愈",
+  "code": "hanyu",
+  "route": "han-yu",
+  "profile": "(768-824)：字退之，河南河阳（今河南省孟州市）人。自称“郡望昌黎”，世称“韩昌黎”、“昌黎先生”。唐代杰出的文学家、思想家、哲学家、政治家。"
+}, {
+  "name": "王建",
+  "code": "wangjian",
+  "route": "wang-jian",
+  "profile": "(768-835): 字仲初，颍川（今河南许昌）人，唐朝诗人。"
+}, {
+  "name": "刘禹锡",
+  "code": "liuyuxi",
+  "route": "liu-yuxi",
+  "profile": "（772-842）：字梦得，河南洛阳人，唐朝文学家、哲学家，有“诗豪” 之称。"
+}, {
+  "name": "白居易",
+  "code": "baijuyi",
+  "route": "bai-juyi",
+  "profile": "（772-846）：字乐天，号香山居士，又号醉吟先生，生于河南新郑，是唐代伟大的现实主义诗人，唐代三大诗人之一。白居易与元稹共同倡导新乐府运动，世称“元白”，与刘禹锡并称“刘白”。"
+}, {
+  "name": "柳宗元",
+  "code": "liuzongyuan",
+  "route": "liu-zongyuan",
+  "profile": "（773-819）：字子厚，汉族，河东（现山西运城永济一带）人，唐宋八大家之一，唐代文学家、哲学家、散文家和思想家世称“柳河东”、 “河东先生”。"
+}, {
+  "name": "元稹",
+  "code": "yuanzhen",
+  "route": "yuan-zhen",
+  "profile": "(779-831)：字微之，别字威明，河南府东都洛阳（今河南洛阳）人，唐朝著名诗人、文学家，父元宽，母郑氏，为北魏宗室鲜卑族拓跋部后裔，北魏昭成帝拓跋什翼犍十四世孙。"
+}, {
+  "name": "贾岛",
+  "code": "jiadao",
+  "route": "jia-dao",
+  "profile": "(779-843)：字阆（读láng）仙，人称“诗奴”，与孟郊共称“郊寒岛瘦”，唐代诗人。"
+}, {
+  "name": "张祜",
+  "code": "zhanghu",
+  "route": "zhang-hu",
+  "profile": "(785-849):字承吉，唐代清河（今邢台市清河县）人，诗人。"
+}, {
+  "name": "杜秋娘",
+  "code": "duqiuniang",
+  "route": "du-qiuniang",
+  "profile": "（791-？）：后世多称为“杜秋娘”，是唐代金陵人。"
+}, {
+  "name": "许浑",
+  "code": "xuhun",
+  "route": "xu-hun",
+  "profile": "（791-858）：字用晦（一作仲晦），唐代诗人，润州丹阳（今江苏丹阳）人，晚唐最具影响力的诗人之一。"
+}, {
+  "name": "马戴",
+  "code": "madai",
+  "route": "ma-dai",
+  "profile": "（799-869）：字虞臣，唐定州曲阳（今河北省曲阳县，一说江苏省东海县或陕西省华县）人。晚唐时期著名诗人。"
+}, {
+  "name": "杜牧",
+  "code": "dumu",
+  "route": "du-mu",
+  "profile": "(803-852)：字牧之，号樊川居士，汉族，京兆万年（今陕西西安）人。杜牧是唐代杰出的诗人、散文家。"
+}, {
+  "name": "温庭钧",
+  "code": "wentingjun",
+  "route": "wen-tingjun",
+  "profile": "(812-866)：本名岐，艺名庭筠，字飞卿，唐代并州祁县（今山西省晋中市祁县）人，晚唐时期诗人、词人。"
+}, {
+  "name": "李商隐",
+  "code": "lishangyin",
+  "route": "li-shangyin",
+  "profile": "（813-858）：字义山，号玉溪（谿）生，又号樊南生，祖籍怀州河内（今河南焦作沁阳），出生于郑州荥阳（今河南郑州荥阳市），晚唐著名诗人，和杜牧合称“小李杜”，与温庭筠合称为“温李”。李商隐又与李贺、李白合称“三李”。"
+}, {
+  "name": "薛逢",
+  "code": "xuefeng",
+  "route": "xue-feng",
+  "profile": "（816-？）：字陶臣，蒲州河东（今山西永济市）人，唐代诗人。"
+}, {
+  "name": "郑畋",
+  "code": "zhengtian",
+  "route": "zheng-tian",
+  "profile": "(825-883)：字台文，荥阳人，唐朝宰相、诗人，桂管观察使郑亚之子。"
+}, {
+  "name": "韦庄",
+  "code": "weizhuang",
+  "route": "wei-zhuang",
+  "profile": "（836-910）：字端己，汉族，长安杜陵（今中国陕西省西安市附近）人，晚唐诗人、词人，五代时前蜀宰相。文昌右相韦待价七世孙、苏州刺史韦应物四世孙。"
+}, {
+  "name": "韩偓",
+  "code": "hanwo",
+  "route": "han-wo",
+  "profile": "(842-923)：晚唐五代诗人，乳名冬郎，字致光，号致尧，晚年又号玉山樵人。陕西万年县（今樊川）人。"
+}, {
+  "name": "杜荀鹤",
+  "code": "duxunhe",
+  "route": "du-xunhe",
+  "profile": "(846-906)：字彦之，自号九华山人。池州石埭（今安徽省石台县）人。他出身寒微，中年始中进士，仍未授官，乃返乡闲居。"
+}]

@@ -1,0 +1,79 @@
+section.content>ol>li:nth-of-type(10n+1) {
+  border-top: 0.3em solid var(--color-1);
+}
+
+section.content>ol>li:nth-of-type(10n+1) a:hover {
+  color: var(--color-1);
+}
+
+section.content>ol>li:nth-of-type(10n+2) {
+  border-top: 0.3em solid var(--color-2);
+}
+
+section.content>ol>li:nth-of-type(10n+2) a:hover {
+  color: var(--color-2);
+}
+
+section.content>ol>li:nth-of-type(10n+3) {
+  border-top: 0.3em solid var(--color-3);
+}
+
+section.content>ol>li:nth-of-type(10n+3) a:hover {
+  color: var(--color-3);
+}
+
+section.content>ol>li:nth-of-type(10n+4) {
+  border-top: 0.3em solid var(--color-4);
+}
+
+section.content>ol>li:nth-of-type(10n+4) a:hover {
+  color: var(--color-4);
+}
+
+section.content>ol>li:nth-of-type(10n+5) {
+  border-top: 0.3em solid var(--color-5);
+}
+
+section.content>ol>li:nth-of-type(10n+5) a:hover {
+  color: var(--color-5);
+}
+
+section.content>ol>li:nth-of-type(10n+6) {
+  border-top: 0.3em solid var(--color-6);
+}
+
+section.content>ol>li:nth-of-type(10n+6) a:hover {
+  color: var(--color-6);
+}
+
+section.content>ol>li:nth-of-type(10n+7) {
+  border-top: 0.3em solid var(--color-7);
+}
+
+section.content>ol>li:nth-of-type(10n+7) a:hover {
+  color: var(--color-7);
+}
+
+section.content>ol>li:nth-of-type(10n+8) {
+  border-top: 0.3em solid var(--color-8);
+}
+
+section.content>ol>li:nth-of-type(10n+8) a:hover {
+  color: var(--color-8);
+}
+
+section.content>ol>li:nth-of-type(10n+9) {
+  border-top: 0.3em solid var(--color-9);
+}
+
+section.content>ol>li:nth-of-type(10n+9) a:hover {
+  color: var(--color-9);
+}
+
+section.content>ol>li:nth-of-type(10n) {
+  border-top: 0.3em solid var(--color-10);
+}
+
+section.content>ol>li:nth-of-type(10n) a:hover {
+  color: var(--color-10);
+}

@@ -1,0 +1,51 @@
+section.content {
+  float: left;
+  width: 80%;
+}
+
+section.content>ol>li {
+  list-style-type: none;
+}
+
+section.content>ol {
+  display: flex;
+  flex-direction: row;
+  /* width: 80%; */
+  height: 3.2em;
+  /* border: 0.1em solid #555; */
+  /* margin: auto; */
+}
+
+section.content>ol>li {
+  flex: 1 1 auto;
+  width: 30px;
+  transition: width 0.3s ease;
+  text-align: center;
+  text-overflow: ellipsis;
+  /* background-color: AliceBlue; */
+}
+
+section.content>ol>li:hover {
+  width: 60%;
+  white-space: nowrap;
+  border-bottom: 0.3em solid AliceBlue;
+  /* background-color: AliceBlue; */
+}
+
+.content .hover-display {
+  display: none;
+}
+
+:hover>p>a>span.hover-display {
+  display: inline;
+  font-size: 0.7em;
+}
+
+.content a {
+  /* text-decoration: none; */
+  color: black;
+}
+
+/* .content a:hover {
+  color: #8dc434;
+} */
