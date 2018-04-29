@@ -28,7 +28,7 @@ function getPoetMapUrl(uri) {
 }
 
 function getBaseUrl(uri) {
-  return uri.match(/[^#]+(?=(\/[\w.]+#?))/)[0];
+  return uri.match(/[^#]+(?=\/#.*$)/)[0];
 }
 
 function generateGetPoemUrl(key, map) {
