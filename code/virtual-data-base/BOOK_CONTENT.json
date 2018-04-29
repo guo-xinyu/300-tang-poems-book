@@ -1,0 +1,370 @@
+[{
+  "id": "tangshi300",
+  "title": "唐詩三百首",
+  "preface": "（清）孫洙"
+}, {
+  "id": "qiwuqian",
+  "title": "綦毋潜",
+  "preface": "（生卒年不詳）：唐代詩人。字孝通。虔州（今江西南康）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "張喬",
+  "id": "zhangqiao",
+  "preface": "（生卒年不詳）：唐代詩人。字號不詳。池州（今安徽池州）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "劉慎虚",
+  "id": "liushenxu",
+  "preface": "（生卒年不詳）：唐代詩人。亦作昚虚，字挺卿，號易軒。江東（今江蘇南部及浙江一帶）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "崔曙",
+  "id": "cuishu",
+  "preface": "（？-739）：唐代詩人。宋州宋城縣（今河南商丘）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "西鄙人",
+  "id": "xibiren",
+  "preface": "（生卒年不詳）：西北邊境人，相傳爲唐代五言民歌《哥舒歌》的作者。",
+  "parentId": "tangshi300"
+}, {
+  "title": "柳中庸",
+  "id": "liuzhongyong",
+  "preface": "（生卒年不詳）：唐代詩人。名淡，字中庸。蒲州虞鄉（今山西永濟）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "益嘉運",
+  "id": "yijiayun",
+  "preface": "（生卒年不詳）：唐代詩人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "駱賓王",
+  "id": "luobinwang",
+  "preface": "（638-684）：唐代詩人，初唐四杰之一。字觀光。婺州義烏（今浙江義烏）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "杜審言",
+  "id": "dushenyan",
+  "preface": "（645-708）：唐代詩人。字必簡。襄州襄陽人（今湖北襄陽）。",
+  "parentId": "tangshi300"
+}, {
+  "title": "王勃",
+  "id": "wangbo",
+  "preface": "（650-676）：唐代詩人，初唐四杰之一。字子安。絳州龍門（今山西河津）人",
+  "parentId": "tangshi300"
+}, {
+  "title": "宋之問",
+  "id": "songzhiwen",
+  "preface": "（656-712）：初唐詩人。字延清。汾州隰城人（今山西汾陽市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "沈佺期",
+  "id": "shenquanqi",
+  "preface": "（656-715）：初唐詩人。字雲卿，相州内黄（今河南内黄縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "陳子昂",
+  "id": "chenziang",
+  "preface": "（659-720）：初唐詩人。字伯玉。梓州射洪（今四川射洪縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "賀知章",
+  "id": "hezhizhang",
+  "preface": "（659-744）：唐代詩人。字季真，晚年自號四明狂客、秘書外監。越州永興（今浙江杭州）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "張旭",
+  "id": "zhangxu",
+  "preface": "（675-750）：唐開元、天寶年間詩人。字伯高，一字季明，吴縣（今江蘇蘇州）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "張九齡",
+  "id": "zhangjiuling",
+  "preface": "（678-740）：唐代詩人、宰相。字子壽，一名博物，謚文獻。唐朝韶州曲江（今廣東省韶關市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "李隆基",
+  "id": "lilongji",
+  "preface": "（685-762）：即唐玄宗，先天元年（712年）至天寶十五年（756年）在位，因安史之亂而退位。",
+  "parentId": "tangshi300"
+}, {
+  "title": "王翰",
+  "id": "wanghan",
+  "preface": "（687-726）：唐代詩人。字子羽。并州晋陽（今山西太原市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "王之涣",
+  "id": "wangzhihuan",
+  "preface": "（688-742）：盛唐詩人。字季凌。并州（今山西太原市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "孟浩然",
+  "id": "menghaoran",
+  "preface": "（689-740）：唐代詩人。名浩，字浩然，號孟山人。襄州襄陽（现湖北襄陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "李頎",
+  "id": "liqi",
+  "preface": "（690-751）: 唐代詩人。字、號均不詳。河南潁陽（今河南登封）一帶人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "王灣",
+  "id": "wangwan",
+  "preface": "（693-751）：唐代詩人。字不詳。洛陽（今河南洛陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "王昌齡",
+  "id": "wangchangling",
+  "preface": "（698-757）：唐代詩人。字少伯。河東晋陽（今山西太原）人，又一説京兆長安人（今陝西西安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "祖咏",
+  "id": "zuyong",
+  "preface": "（699-746）：唐代詩人。字、號均不詳。洛陽（今河南洛陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "王維",
+  "id": "wangwei",
+  "preface": "（701-761）：唐代詩人、畫家。字摩詰，號摩詰居士。河東蒲州（今山西運城）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "李白",
+  "id": "libai",
+  "preface": "（701-762）：唐代詩人。字太白，號青蓮居士。綿州昌隆（今四川江油）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "丘爲",
+  "id": "qiuwei",
+  "preface": "（702-797）：唐代詩人。字、號均不詳。蘇州嘉興（今浙江嘉興市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "崔顥",
+  "id": "cuihao",
+  "preface": "（704-754）：唐代詩人。汴州（今河南開封市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "高適",
+  "id": "gaoshi",
+  "preface": "（704-765）：唐代詩人。字達夫，一字仲武。渤海蓨（今河北景縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "常建",
+  "id": "changjian",
+  "preface": "（708-？）：唐代詩人，字號不詳。邢州（今河北邢臺）人，又一説長安（现在陝西西安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "杜甫",
+  "id": "dufu",
+  "preface": "（712-770）：唐代詩人。字子美，自號少陵野老。生于河南鞏縣，祖籍襄陽（今湖北襄陽）。",
+  "parentId": "tangshi300"
+}, {
+  "title": "岑參",
+  "id": "censhen",
+  "preface": "（715-770）：唐代詩人。荆州江陵（现湖北江陵）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "劉方平",
+  "id": "liufangping",
+  "preface": "（生卒年不詳）：天寶年間詩人。字、號均不詳。洛陽（今河南洛陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "皇甫冉",
+  "id": "huangfuran",
+  "preface": "（717-771）：唐代詩人。字茂政。生于潤州丹陽（今江蘇鎮江），祖籍安定郡朝那縣（今寧夏回族自治區固原市彭陽縣）。",
+  "parentId": "tangshi300"
+}, {
+  "title": "元結",
+  "id": "yuanjie",
+  "preface": "（719-772）：唐代詩人。字次山，號漫郎、猗玕子。河南魯山人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "韓翃",
+  "id": "hanhong",
+  "preface": "（719-788）：唐代詩人。字君平，南陽（今河南南陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "司空曙",
+  "id": "sikongshu",
+  "preface": "（766年左右在世）：唐代詩人。字文初。廣平（今河北廣平縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "張繼",
+  "id": "zhangji",
+  "preface": "（生卒年不詳）：唐代詩人。字懿孫。襄州襄陽（今湖北襄陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "錢起",
+  "id": "qianqi",
+  "preface": "（722-780）：唐代詩人。字仲文。吴興（今浙江湖州市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "劉長卿",
+  "id": "liuchangqing",
+  "preface": "（726-786）：唐代詩人。字文房，宣城（今屬安徽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "僧皎然",
+  "id": "sengjiaoran",
+  "preface": "（730-799）：唐代僧人、詩人。字清晝，本姓謝。湖州（今浙江吴興）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "戴叔倫",
+  "id": "daishulun",
+  "preface": "（732-789）：唐代詩人。字幼公（一作次公）。潤州金壇（今屬江蘇）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "李瑞",
+  "id": "lirui",
+  "preface": "（737-784）：唐代詩人。字正已。趙州（今河北趙縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "韋應物",
+  "id": "weiyingwu",
+  "preface": "（737-792）：唐代詩人。京兆郡杜陵縣（今陝西西安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "盧綸",
+  "id": "lulun",
+  "preface": "（739-799）：唐代詩人。字允言。河中府蒲縣（今山西省臨汾市蒲縣）。",
+  "parentId": "tangshi300"
+}, {
+  "title": "李益",
+  "id": "liyi",
+  "preface": "（750-830）：唐代詩人。字君虞。鄭州人，祖籍隴西狄道（今甘肅省臨洮縣）。",
+  "parentId": "tangshi300"
+}, {
+  "title": "孟郊",
+  "id": "mengjiao",
+  "preface": "（751-814）：唐代詩人。字東野。湖州武康（今浙江德清）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "權德輿",
+  "id": "quandeyu",
+  "preface": "（759-818）：唐代文學家、宰相。字載之。天水略陽（今甘肅秦安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "張籍",
+  "id": "zhangji",
+  "preface": "（766-830）：唐代詩人。字文昌。和州烏江（今安徽和縣烏江鎮）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "韓愈",
+  "id": "hanyu",
+  "preface": "（768-824）：唐代文學家，唐宋八大家之一。字退之。河南河陽（今河南省孟州市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "王建",
+  "id": "wangjian",
+  "preface": "（768-835）: 唐代詩人。字仲初。潁川（今河南許昌）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "劉禹錫",
+  "id": "liuyuxi",
+  "preface": "（772-842）：唐代文學家。字夢得。河南洛陽人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "白居易",
+  "id": "baijuyi",
+  "preface": "（772-846）：唐代詩人。字樂天，號香山居士。下邽（今陝西渭南）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "柳宗元",
+  "id": "liuzongyuan",
+  "preface": "（773-819）：唐代文學家，唐宋八大家之一。字子厚。河東解（今山西永濟）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "元稹",
+  "id": "yuanzhen",
+  "preface": "（779-831）：唐代文學家。字微之。河南府東都洛陽（今河南洛陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "賈島",
+  "id": "jiadao",
+  "preface": "（779-843）：唐代詩人。字閬仙。范陽（今河北涿州市）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "張祜",
+  "id": "zhanghu",
+  "preface": "（785-849）：唐代詩人。字承吉。邢臺清河（今屬河北）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "朱慶餘",
+  "id": "zhuqingyu",
+  "preface": "（生卒年不詳）：唐代詩人。名可久，字慶餘。越州（今浙江紹興）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "杜秋",
+  "id": "duqiu",
+  "preface": "（791-？）：《資治通鑒》稱杜仲陽，後世多稱爲“杜秋娘”，唐代金陵人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "許渾",
+  "id": "xuhun",
+  "preface": "（791-858）：晚唐詩人。字用晦。潤州丹陽縣（今江蘇丹陽）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "馬戴",
+  "id": "madai",
+  "preface": "（799-869）：晚唐詩人。字虞臣。定州曲陽（今河北曲陽縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "杜牧",
+  "id": "dumu",
+  "preface": "（803-852）：唐代詩人。字牧之，號樊川居士。京兆萬年（今陝西西安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "温庭筠",
+  "id": "wentingyun",
+  "preface": "（812-866）：晚唐詩人、詞人。本名岐，字飛卿。太原祁（今山西祁縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "陳陶",
+  "id": "chentao",
+  "preface": "（生卒年不詳）：唐代詩人。字嵩伯，自號三教布衣，鄱陽劍浦人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "李商隱",
+  "id": "lishangyin",
+  "preface": "（813-858）：唐代詩人。字義山，號玉谿生，又號樊南生。懷州河内（今河南沁陽）。",
+  "parentId": "tangshi300"
+}, {
+  "title": "薛逢",
+  "id": "xuefeng",
+  "preface": "（816-？）：唐代詩人。字陶臣。蒲州河東（今山西永濟）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "鄭畋",
+  "id": "zhengtian",
+  "preface": "（825-883）：唐代詩人、宰相。字臺文。滎陽（今屬河南）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "韋莊",
+  "id": "weizhuang",
+  "preface": "（836-910）：晚唐五代時期詩人、詞人。字端己，京兆杜陵（今陝西西安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "韓偓",
+  "id": "hanwo",
+  "preface": "（842-923）：晚唐五代詩人。字致光，號致尧，晚年又號玉山樵人。京兆萬年（今陝西西安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "杜荀鶴",
+  "id": "duxunhe",
+  "preface": "（846-906）：晚唐詩人。字彦之，自號九華山人。池州石埭（今安徽石台縣）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "崔涂",
+  "id": "cuitu",
+  "preface": "（生卒年不詳）：唐末詩人。字禮山。唐代江南（今浙江桐廬、建德一帶）人，，",
+  "parentId": "tangshi300"
+}, {
+  "title": "秦韜玉",
+  "id": "qintaoyu",
+  "preface": "（生卒年不詳）：唐代詩人。字中明。京兆長安（今陝西西安）人。",
+  "parentId": "tangshi300"
+}, {
+  "title": "張泌",
+  "id": "zhangbi",
+  "preface": "（生卒年不詳）：唐末五代後蜀詩人、詞人。字子澄，安徽淮南人。",
+  "parentId": "tangshi300"
+}]
