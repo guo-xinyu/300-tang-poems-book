@@ -1,43 +1,18 @@
 [{
-  "name": "劉方平",
-  "code": "liufangping",
-  "route": "liu-fangping",
-  "profile": "（生卒年不詳）：天寶年間詩人。字、號均不詳。洛陽（今河南洛陽）人。"
-}, {
   "name": "綦毋潜",
   "code": "qiwuqian",
   "route": "qi-wuqian",
   "profile": "（生卒年不詳）：唐代詩人。字孝通。虔州（今江西南康）人。"
 }, {
-  "name": "張繼",
-  "code": "zhangji",
-  "route": "zhang-ji",
-  "profile": "（生卒年不詳）：唐代詩人。字懿孫。襄州襄陽（今湖北襄陽）人。"
-}, {
   "name": "張喬",
   "code": "zhangqiao",
   "route": "zhang-qiao",
-  "profile": "（生卒年不詳）：字號不詳。池州（今安徽省池州市貴池區）人。"
-}, {
-  "name": "司空曙",
-  "code": "sikongshu",
-  "route": "sikong-shu",
-  "profile": "（766年左右在世）：唐代詩人。字文初。廣平（今河北省廣平縣）人。"
-}, {
-  "name": "崔涂",
-  "code": "cuitu",
-  "route": "cui-tu",
-  "profile": "（生卒年不詳）：唐末詩人。字禮山。唐代江南（今浙江桐廬、建德一帶）人，，"
+  "profile": "（生卒年不詳）：唐代詩人。字號不詳。池州（今安徽池州）人。"
 }, {
   "name": "劉慎虚",
   "code": "liushenxu",
   "route": "liu-shenxu",
   "profile": "（生卒年不詳）：唐代詩人。亦作昚虚，字挺卿，號易轩。江東（今江蘇南部及浙江一帶）人。"
-}, {
-  "name": "秦韜玉",
-  "code": "qintaoyu",
-  "route": "qin-taoyu",
-  "profile": "（生卒年不詳）：唐代詩人。字中明。京兆長安（今陝西西安）人。"
 }, {
   "name": "崔曙",
   "code": "cuishu",
@@ -54,25 +29,10 @@
   "route": "liu-zhongyong",
   "profile": "（生卒年不詳）：唐代詩人。名淡，字中庸。蒲州虞鄉（今山西永濟）人。"
 }, {
-  "name": "朱慶餘",
-  "code": "zhuqingyu",
-  "route": "zhu-qingyu",
-  "profile": "（生卒年不詳）：唐代詩人。名可久，字慶餘。越州（今浙江紹興）人。"
-}, {
-  "name": "陳陶",
-  "code": "chentao",
-  "route": "chen-tao",
-  "profile": "（生卒年不詳）：唐代詩人。字嵩伯，自號三教布衣，鄱陽劍浦人。"
-}, {
   "name": "益嘉運",
   "code": "yijiayun",
   "route": "yi-jiayun",
   "profile": "（生卒年不詳）：唐代詩人。"
-}, {
-  "name": "張泌",
-  "code": "zhangbi",
-  "route": "zhang-bi",
-  "profile": "（生卒年不詳）：五代後蜀詞人。《全唐詩》作曰字子澄，安徽淮南人。"
 }, {
   "name": "駱賓王",
   "code": "luobinwang",
@@ -199,6 +159,11 @@
   "route": "cen-shen",
   "profile": "（715-770）：唐代詩人。荆州江陵（现湖北江陵）人。"
 }, {
+  "name": "劉方平",
+  "code": "liufangping",
+  "route": "liu-fangping",
+  "profile": "（生卒年不詳）：天寶年間詩人。字、號均不詳。洛陽（今河南洛陽）人。"
+}, {
   "name": "皇甫冉",
   "code": "huangfuran",
   "route": "huangfu-ran",
@@ -213,6 +178,16 @@
   "code": "hanhong",
   "route": "han-hong",
   "profile": "（719-788）：唐代詩人。字君平，南陽（今河南南陽）人。"
+}, {
+  "name": "司空曙",
+  "code": "sikongshu",
+  "route": "sikong-shu",
+  "profile": "（766年左右在世）：唐代詩人。字文初。廣平（今河北廣平縣）人。"
+}, {
+  "name": "張繼",
+  "code": "zhangji",
+  "route": "zhang-ji",
+  "profile": "（生卒年不詳）：唐代詩人。字懿孫。襄州襄陽（今湖北襄陽）人。"
 }, {
   "name": "錢起",
   "code": "qianqi",
@@ -309,6 +284,11 @@
   "route": "zhang-hu",
   "profile": "（785-849）：唐代詩人。字承吉。邢臺清河（今屬河北）人。"
 }, {
+  "name": "朱慶餘",
+  "code": "zhuqingyu",
+  "route": "zhu-qingyu",
+  "profile": "（生卒年不詳）：唐代詩人。名可久，字慶餘。越州（今浙江紹興）人。"
+}, {
   "name": "杜秋",
   "code": "duqiu",
   "route": "du-qiu",
@@ -333,6 +313,11 @@
   "code": "wentingyun",
   "route": "wen-tingyun",
   "profile": "（812-866）：晚唐詩人、詞人。本名岐，字飛卿。太原祁（今山西祁縣）人。"
+}, {
+  "name": "陳陶",
+  "code": "chentao",
+  "route": "chen-tao",
+  "profile": "（生卒年不詳）：唐代詩人。字嵩伯，自號三教布衣，鄱陽劍浦人。"
 }, {
   "name": "李商隱",
   "code": "lishangyin",
@@ -363,4 +348,19 @@
   "code": "duxunhe",
   "route": "du-xunhe",
   "profile": "（846-906）：晚唐詩人。字彦之，自號九華山人。池州石埭（今安徽石台縣）人。"
+}, {
+  "name": "崔涂",
+  "code": "cuitu",
+  "route": "cui-tu",
+  "profile": "（生卒年不詳）：唐末詩人。字禮山。唐代江南（今浙江桐廬、建德一帶）人，，"
+}, {
+  "name": "秦韜玉",
+  "code": "qintaoyu",
+  "route": "qin-taoyu",
+  "profile": "（生卒年不詳）：唐代詩人。字中明。京兆長安（今陝西西安）人。"
+}, {
+  "name": "張泌",
+  "code": "zhangbi",
+  "route": "zhang-bi",
+  "profile": "（生卒年不詳）：唐末五代後蜀詩人、詞人。字子澄，安徽淮南人。"
 }]
