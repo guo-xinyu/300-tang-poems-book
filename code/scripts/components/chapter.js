@@ -24,16 +24,19 @@ function splitPages(chapterKey, sections, mainBodyDom) {
   // let mainBodyDom = document.getElementById('js-main-body');
   let innerHtml = '';
   let pages = [];
+  let contentHeight = 0;
   for (let mainBodyChildNode of mainBodyDom.childNodes) {
     if (!(mainBodyChildNode instanceof HTMLElement)) {
       continue;
     }
-    if (mainBodyChildNode.offsetTop + mainBodyChildNode.offsetHeight <=
-      mainBodyDom.offsetHeight * 0.9 * (pages.length + 1)) {
+    if (contentHeight + mainBodyChildNode.offsetHeight <=
+      mainBodyDom.offsetHeight * 0.9) {
+      contentHeight += mainBodyChildNode.offsetHeight;
       innerHtml += mainBodyChildNode.outerHTML;
     } else {
       pages.push(new Page(chapterKey, innerHtml));
       innerHtml = mainBodyChildNode.outerHTML;
+      contentHeight = mainBodyChildNode.offsetHeight;
     }
   }
 
