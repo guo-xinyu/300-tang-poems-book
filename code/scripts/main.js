@@ -63,21 +63,26 @@ function changeMainBodyView(event, route) {
     // }
     // }s
     // let poetNumber = getNumberOfList(window.location.hash);
-    animation.chapterIn(event.target, 1);
+    animation.chapterIn(event.target, (this.map.findIndex(value => value.id === route[1]) % 10) + 1);
   });
 }
 
 function changeChapterView(mainBodyDom, route) {
+  let littleContentDom = document.getElementById('js-chapter-content');
   let animationedHandeler = animationedEvent => {
     animationedEvent.target.removeEventListener('animationend', animationedHandeler);
     changeMainBodyView.call(this, animationedEvent, route).then(() => {
       if (route[2] !== '1') {
         changePageView.call(this, mainBodyDom, route);
       }
+      animation.littleContentShow(littleContentDom,
+        (this.map.findIndex(value => value.id === route[1]) % 10) + 1);
     });
   };
+
   mainBodyDom.addEventListener('animationend', animationedHandeler);
   animation.chapterOut(mainBodyDom);
+  animation.littleContentHide(littleContentDom);
 }
 
 function changePageView(mainBodyDom, route) {
@@ -92,7 +97,8 @@ function changePageView(mainBodyDom, route) {
 }
 
 class Router {
-  constructor() {
+  constructor(map) {
+    this.map = map;
     let refresh = event => {
       this.currentUrl = location.hash.slice(1) || '/';
       if (this.currentUrl === '/') {
@@ -182,9 +188,8 @@ class Router {
 
   bookContentAction.getContentByParentId('tangshi300').then(chapters => {
     document.getElementById('js-300-tang-poem-poets').innerHTML = content(chapters);
+    window.router = new Router(chapters);
   });
-
-  window.router = new Router();
 
   function addClickEventHandlers() {
     document.getElementById('js-main-body').addEventListener('click', event => {

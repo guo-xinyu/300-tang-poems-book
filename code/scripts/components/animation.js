@@ -26,6 +26,18 @@ const animation = {
   pageIn(dom) {
     clearAnimationClass(dom);
     domUtil.addClass(dom, 'animated flip-in-y');
+  },
+  littleContentHide(dom) {
+
+  },
+  littleContentShow(dom, chapterNum) {
+    let classNameStr = dom.getAttribute('class');
+    let toRemoveClassName = '';
+    for (let colorClassName of classNameStr.match(/background-color-[\d]+-opacity-0-1/gi)) {
+      toRemoveClassName += ` ${colorClassName}`;
+    }
+    domUtil.removeClass(dom, toRemoveClassName);
+    domUtil.addClass(dom, `background-color-${chapterNum}-opacity-0-1`);
   }
 };
 
