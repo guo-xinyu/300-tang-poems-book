@@ -8,10 +8,19 @@ function assembleSection(sections) {
     for (let paragraph of section.content) {
       pInnerHtml += `<p>${paragraph}</p>`;
     }
+    let titleEles = section.title.split(/\s+/g);
+    let parsedTitle = '';
+    for (let [index, titleEle] of titleEles.entries()) {
+      if (index === 0) {
+        parsedTitle += titleEle;
+        continue;
+      }
+      parsedTitle += `<sub>${titleEle}</sub>`;
+    }
     sectionInnerHtml += `
     <section id="js-poem-${section.id}">
         <header>
-            <h3>${section.title}</h3>
+            <h3>${parsedTitle}</h3>
         </header>
         ${pInnerHtml}
     </section>`;
@@ -42,7 +51,7 @@ function splitPages(chapterKey, sections, mainBodyDom) {
 
   let sectionTitles = [];
   for (let header of mainBodyDom.getElementsByTagName('h3')) {
-    sectionTitles.push(header.innerText);
+    sectionTitles.push(header.innerHTML);
   }
   pages.push(new Page(chapterKey, innerHtml));
   mainBodyDom.innerHTML = '';
