@@ -1,6 +1,8 @@
 import { animation } from './components/animation.js';
 import { getResource } from './components/requestResource.js';
 import { Chapter } from './components/chapter.js';
+import { BookContentAction } from './actions/bookContentAction.js';
+import { content } from './components/content.js';
 
 async function getMainBody(uri, route) {
   const poetMapResponse = await getPoetMapUrl(uri);
@@ -28,7 +30,7 @@ function getPoetMapUrl(uri) {
 }
 
 function getBaseUrl(uri) {
-  return uri.match(/[^#]+(?=(\/[\w.]+#?))/)[0];
+  return uri.match(/[^#]+\/(?=([^\/]*#?.*$))/)[0];
 }
 
 function generateGetPoemUrl(key, map) {
@@ -175,72 +177,11 @@ class Router {
 }
 
 (function() {
-  // let chapter = {};
+  const bookContentAction = new BookContentAction(getBaseUrl(document.baseURI));
+  bookContentAction.getContentByParentId('tangshi300').then(chapters => {
+    document.getElementById('js-300-tang-poem-poets').innerHTML = content(chapters);
+  });
 
-  // function getNumberOfList(hash) {
-  //   let poetsContentDoms = document.getElementById('js-300-tang-poem-poets').getElementsByTagName('li');
-  //   for (let [index, poetsContentDom] of Array.from(poetsContentDoms).entries()) {
-  //     let aDoms = poetsContentDom.getElementsByTagName('a');
-  //     for (let aDom of aDoms) {
-  //       if (aDom.getAttribute('href') === location.hash) {
-  //         return (index % 10) + 1;
-  //       }
-  //     }
-  //   }
-  // }
-
-  // function getPoetMapUrl(uri) {
-  //   let mapUrl = getBaseUrl(uri);
-  //   return getResource(mapUrl + '/main-body/map/poetMap.json');
-  // }
-
-  // function getBaseUrl(uri) {
-  //   return uri.match(/[^#]+(?=(\/[\w.]+#?))/)[0];
-  // }
-
-  // function generateGetPoemUrl(key, map) {
-  //   let poetKeys = window.location.hash.match(/[\w]+/);
-  //   for (let poetKey of poetKeys) {
-  //     let baseUrl = getBaseUrl(document.baseURI);
-  //     let mapValue = map[poetKey];
-  //     let url = `${baseUrl}/main-body/${mapValue}/${mapValue}-1.html`;
-  //     return url;
-  //   }
-  // }
-
-  // function addAnimationEventHandlers() {
-  //   document.getElementById('js-main-body').addEventListener('animationend', event => {
-  //     animation.pageIn(event.target);
-  //     let poetNumber = getNumberOfList(window.location.hash);
-  //     getPoetMapUrl(document.baseURI).then(poetMapResponse => {
-  //       let poetKeys = window.location.hash.match(/[\w]+/);
-  //       for (let poetKey of poetKeys) {
-  //         let url = generateGetPoemUrl(poetKey, poetMapResponse);
-  //         getResource(url).then(response => {
-  //           let oldObjectNode = document.getElementById('js-main-body');
-  //           if (oldObjectNode) {
-  //             let chapter = new Chapter(poetKey, response.documentElement.innerHTML);
-  //             oldObjectNode.innerHTML = chapter.pages[chapter.currentPageNum - 1].innerHtml;
-  //           }
-  //           animation.chapterIn(event.target, poetNumber);
-  //           // let classNameStr = event.target.getAttribute('class');
-  //           // let toRemoveClassName = 'zoom-out-up animated';
-  //           // for (let colorClassName of classNameStr.match(/border-color-[\d]+/gi)) {
-  //           //   toRemoveClassName += ` ${colorClassName}`;
-  //           // }
-  //           // domUtil.removeClass(event.target, toRemoveClassName);
-  //           // domUtil.addClass(event.target, `animated zoom-in-down border-color-${poetNumber}`);
-  //           // classNameStr = classNameStr.replace('zoomOutUp', '');
-  //           // classNameStr = classNameStr.replace('animated', '');
-  //           // classNameStr = classNameStr.replace(/border-color-[\d]+/, '');
-  //           // event.target.setAttribute('class', classNameStr);
-  //           // classNameStr += ` animated zoomInDown border-color-${poetNumber}`;
-  //           // event.target.setAttribute('class', classNameStr);
-  //         });
-  //       }
-  //     });
-  //   });
-  // }
   window.router = new Router();
 
   function addClickEventHandlers() {
