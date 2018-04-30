@@ -1,6 +1,6 @@
 section.content {
   float: left;
-  width: 80%;
+  width: 85%;
 }
 
 section.content>ol>li {
@@ -9,6 +9,7 @@ section.content>ol>li {
 
 section.content>ol {
   display: flex;
+  /* flex-wrap: wrap; */
   flex-direction: row;
   /* width: 80%; */
   height: 3.2em;

@@ -1,13 +1,23 @@
 :root {
-  --main-body-height: 37em;
-  --color-1: #8dc434;
-  --color-2: #c05fd5;
-  --color-3: #35cbd5;
-  --color-4: #f2811c;
-  --color-5: #ee68a9;
-  --color-6: #2496f5;
-  --color-7: #f1e12b;
-  --color-8: #7c81e6;
-  --color-9: #57dca5;
-  --color-10: #f5ba05;
+  --main-body-height: 50em;
+  --color-1: rgb(141, 196, 52);
+  --color-1-opacity-0-1: rgba(141, 196, 52, 0.1);
+  --color-2: rgb(192, 95, 213);
+  --color-2-opacity-0-1: rgba(192, 95, 213, 0.1);
+  --color-3: rgb(53, 203, 213);
+  --color-3-opacity-0-1: rgba(53, 203, 213, 0.1);
+  --color-4: rgb(242, 129, 28);
+  --color-4-opacity-0-1: rgba(242, 129, 28, 0.1);
+  --color-5: rgb(238, 104, 169);
+  --color-5-opacity-0-1: rgba(238, 104, 169, 0.1);
+  --color-6: rgb(36, 150, 245);
+  --color-6-opacity-0-1: rgba(36, 150, 245, 0.1);
+  --color-7: rgb(241, 225, 43);
+  --color-7-opacity-0-1: rgba(241, 225, 43, 0.1);
+  --color-8: rgb(124, 129, 230);
+  --color-8-opacity-0-1: rgba(124, 129, 230, 0.1);
+  --color-9: rgb(87, 220, 165);
+  --color-9-opacity-0-1: rgba(87, 220, 165, 0.1);
+  --color-10: rgb(245, 186, 5);
+  --color-10-opacity-0-1: rgba(245, 186, 5, 0.1);
 }
