@@ -1,8 +1,26 @@
 import { Page } from './page.js';
 import { ChapterContent } from './chapterContent.js';
 
-function splitPages(chapterKey, chapterInnerHtml, mainBodyDom) {
-  mainBodyDom.innerHTML = chapterInnerHtml;
+function assembleSection(sections) {
+  let sectionInnerHtml = '';
+  for (let section of sections) {
+    let pInnerHtml = '';
+    for (let paragraph of section.content) {
+      pInnerHtml += `<p>${paragraph}</p>`;
+    }
+    sectionInnerHtml += `
+    <section id="js-poem-${section.id}">
+        <header>
+            <h3>${section.title}</h3>
+        </header>
+        ${pInnerHtml}
+    </section>`;
+  }
+  return sectionInnerHtml;
+}
+
+function splitPages(chapterKey, sections, mainBodyDom) {
+  mainBodyDom.innerHTML = assembleSection(sections);
   // let mainBodyDom = document.getElementById('js-main-body');
   let innerHtml = '';
   let pages = [];
@@ -31,10 +49,10 @@ function splitPages(chapterKey, chapterInnerHtml, mainBodyDom) {
 }
 
 class Chapter {
-  constructor(chapterKey, chapterInnerHtml, mainBodyDom) {
+  constructor(chapterKey, sections, mainBodyDom) {
     this.chapterKey = chapterKey;
     // this.totalPageNum = 1;
-    let { pages, chapterContent } = splitPages(chapterKey, chapterInnerHtml, mainBodyDom);
+    let { pages, chapterContent } = splitPages(chapterKey, sections, mainBodyDom);
     this.pages = pages;
     this.chapterContent = chapterContent;
     this.titles =

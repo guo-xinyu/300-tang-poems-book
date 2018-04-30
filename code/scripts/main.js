@@ -1,16 +1,18 @@
 import { animation } from './components/animation.js';
-import { getResource } from './components/requestResource.js';
+// import { getResource } from './components/requestResource.js';
 import { Chapter } from './components/chapter.js';
 import { BookContentAction } from './actions/bookContentAction.js';
 import { content } from './components/content.js';
 
-async function getMainBody(uri, route) {
-  const poetMapResponse = await getPoetMapUrl(uri);
-  let [url, index] = generateGetPoemUrl(route[1], poetMapResponse);
-  const mainBodyHtml = await getResource(url);
-  // const index = poetMapResponse.findIndex(ele => ele.name === route[1]);
-  return { mainBodyHtml, index };
-}
+const bookContentAction = new BookContentAction(getBaseUrl(document.baseURI));
+
+// async function getMainBody(uri, route) {
+//   const poetMapResponse = await getPoetMapUrl(uri);
+//   let [url, index] = generateGetPoemUrl(route[1], poetMapResponse);
+//   const mainBodyHtml = await getResource(url);
+//   // const index = poetMapResponse.findIndex(ele => ele.name === route[1]);
+//   return { mainBodyHtml, index };
+// }
 
 // function getNumberOfList(hash) {
 //   let poetsContentDoms = document.getElementById('js-300-tang-poem-poets').getElementsByTagName('li');
@@ -24,44 +26,44 @@ async function getMainBody(uri, route) {
 //   }
 // }
 
-function getPoetMapUrl(uri) {
-  let mapUrl = getBaseUrl(uri);
-  return getResource(mapUrl + '/main-body/map/poetMap.json');
-}
+// function getPoetMapUrl(uri) {
+//   let mapUrl = getBaseUrl(uri);
+//   return getResource(mapUrl + '/main-body/map/poetMap.json');
+// }
 
 function getBaseUrl(uri) {
   return uri.match(/[^#]+\/(?=([^\/]*#?.*$))/)[0];
 }
 
-function generateGetPoemUrl(key, map) {
-  // let poetKeys = window.location.hash.match(/[\w]+/);
-  for (let [index, element] of map.entries()) {
-    if (element.name !== key) {
-      continue;
-    }
-    let baseUrl = getBaseUrl(document.baseURI);
-    // let mapValue = map[poetKey];
-    let url = `${baseUrl}/main-body/${element.route}/${element.route}.html`;
-    return [url, index];
-  }
-}
+// function generateGetPoemUrl(key, map) {
+//   // let poetKeys = window.location.hash.match(/[\w]+/);
+//   for (let [index, element] of map.entries()) {
+//     if (element.name !== key) {
+//       continue;
+//     }
+//     let baseUrl = getBaseUrl(document.baseURI);
+//     // let mapValue = map[poetKey];
+//     let url = `${baseUrl}/main-body/${element.route}/${element.route}.html`;
+//     return [url, index];
+//   }
+// }
 
 function changeMainBodyView(event, route) {
-  return getMainBody(document.baseURI, route).then(result => {
-    const mainBodyHtml = result.mainBodyHtml;
-    const index = result.index;
+  return bookContentAction.getContentByParentId(route[1]).then(result => {
+    // const mainBodyHtml = result.mainBodyHtml;
+    // const index = result.index;
     let oldObjectNode = document.getElementById('js-main-body');
-    if (oldObjectNode) {
-      let bodyDoms = mainBodyHtml.documentElement.getElementsByTagName('body');
-      for (let bodyDom of bodyDoms) {
-        this.currentChapter = new Chapter(route[1], bodyDom.innerHTML, event.target);
-        oldObjectNode.innerHTML = this.currentChapter.pages[this.currentChapter.currentPageNum - 1].innerHtml;
-        document.getElementById('js-chapter-content').innerHTML = this.currentChapter.chapterContent.innerHtml;
-        break;
-      }
-    }
+    // if (oldObjectNode) {
+    // let bodyDoms = mainBodyHtml.documentElement.getElementsByTagName('body');
+    // for (let bodyDom of bodyDoms) {
+    this.currentChapter = new Chapter(route[1], result, event.target);
+    oldObjectNode.innerHTML = this.currentChapter.pages[this.currentChapter.currentPageNum - 1].innerHtml;
+    document.getElementById('js-chapter-content').innerHTML = this.currentChapter.chapterContent.innerHtml;
+    // break;
+    // }
+    // }s
     // let poetNumber = getNumberOfList(window.location.hash);
-    animation.chapterIn(event.target, (index % 10) + 1);
+    animation.chapterIn(event.target, 1);
   });
 }
 
@@ -177,7 +179,7 @@ class Router {
 }
 
 (function() {
-  const bookContentAction = new BookContentAction(getBaseUrl(document.baseURI));
+
   bookContentAction.getContentByParentId('tangshi300').then(chapters => {
     document.getElementById('js-300-tang-poem-poets').innerHTML = content(chapters);
   });
