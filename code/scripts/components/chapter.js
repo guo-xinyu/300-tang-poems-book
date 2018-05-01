@@ -34,6 +34,7 @@ function splitPages(chapterKey, sections, mainBodyDom) {
   let innerHtml = '';
   let pages = [];
   let contentHeight = 0;
+  let sectionTitles = [];
   for (let mainBodyChildNode of mainBodyDom.childNodes) {
     if (!(mainBodyChildNode instanceof HTMLElement)) {
       continue;
@@ -47,12 +48,15 @@ function splitPages(chapterKey, sections, mainBodyDom) {
       innerHtml = mainBodyChildNode.outerHTML;
       contentHeight = mainBodyChildNode.offsetHeight;
     }
+    sectionTitles.push({
+      pageNum: pages.length + 1,
+      innerHtml: mainBodyChildNode.getElementsByTagName('h3')[0].innerHTML
+    });
   }
 
-  let sectionTitles = [];
-  for (let header of mainBodyDom.getElementsByTagName('h3')) {
-    sectionTitles.push(header.innerHTML);
-  }
+  // for (let header of mainBodyDom.getElementsByTagName('h3')) {
+  //   .push(header.innerHTML);
+  // }
   pages.push(new Page(chapterKey, innerHtml));
   mainBodyDom.innerHTML = '';
   // pages.push(new Page(chapterKey, chapterInnerHtml));
