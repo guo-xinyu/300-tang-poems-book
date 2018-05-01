@@ -9,7 +9,7 @@ class ChapterContent {
     // </header>`;
 
     let sectionTitlesInnerHtml = '';
-    for (let [index, title] of sectionTitles.entries()) {
+    for (let title of sectionTitles) {
       // let titleDetail = title.split(/\s+/g);
       // let titleHtml = titleDetail[0];
       // for (let titleEle of titleDetail) {
@@ -18,9 +18,10 @@ class ChapterContent {
       //   }
       //   titleHtml += `<sub>${titleEle}</sub>`;
       // }
+      const href = window.location.hash.replace(/\/\d+(?=[\/]|$)/g, `/${title.pageNum}`);
       sectionTitlesInnerHtml += `
         <li>
-            <a href="${window.location.hash}/${index + 1}">${title}</a>
+            <a href="${href}">${title.innerHtml}</a>
         </li>`;
     }
     this.innerHtml += `
