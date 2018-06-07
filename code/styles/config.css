@@ -1,23 +1,25 @@
 :root {
   --main-body-height: 50em;
-  --color-1: rgb(141, 196, 52);
-  --color-1-opacity-0-1: rgba(141, 196, 52, 0.1);
-  --color-2: rgb(192, 95, 213);
-  --color-2-opacity-0-1: rgba(192, 95, 213, 0.1);
-  --color-3: rgb(53, 203, 213);
-  --color-3-opacity-0-1: rgba(53, 203, 213, 0.1);
-  --color-4: rgb(242, 129, 28);
-  --color-4-opacity-0-1: rgba(242, 129, 28, 0.1);
-  --color-5: rgb(238, 104, 169);
-  --color-5-opacity-0-1: rgba(238, 104, 169, 0.1);
-  --color-6: rgb(36, 150, 245);
-  --color-6-opacity-0-1: rgba(36, 150, 245, 0.1);
-  --color-7: rgb(241, 225, 43);
-  --color-7-opacity-0-1: rgba(241, 225, 43, 0.1);
-  --color-8: rgb(124, 129, 230);
-  --color-8-opacity-0-1: rgba(124, 129, 230, 0.1);
-  --color-9: rgb(87, 220, 165);
-  --color-9-opacity-0-1: rgba(87, 220, 165, 0.1);
-  --color-10: rgb(245, 186, 5);
-  --color-10-opacity-0-1: rgba(245, 186, 5, 0.1);
+  --color-1: hsl(83, 58%, 49%);
+  --color-1-opacity-0-1: hsla(83, 58%, 49%, 0.1);
+  --color-2: hsl(289, 58%, 60%);
+  --color-2-opacity-0-1: hsla(289, 58%, 60%, 0.1);
+  --color-3: hsl(184, 66%, 52%);
+  --color-3-opacity-0-1: hsla(184, 66%, 52%, 0.1);
+  --color-4: hsl(28, 89%, 53%);
+  --color-4-opacity-0-1: hsla(28, 89%, 53%, 0.1);
+  --color-5: hsl(331, 80%, 67%);
+  --color-5-opacity-0-1: hsla(331, 80%, 67%, 0.1);
+  --color-6: hsl(207, 91%, 55%);
+  --color-6-opacity-0-1: hsla(207, 91%, 55%, 0.1);
+  --color-7: hsl(55, 88%, 56%);
+  --color-7-opacity-0-1: hsla(55, 88%, 56%, 0.1);
+  --color-8: hsl(237, 68%, 69%);
+  --color-8-opacity-0-1: hsla(237, 68%, 69%, 0.1);
+  --color-9: hsl(155, 66%, 60%);
+  --color-9-opacity-0-1: hsla(155, 66%, 60%, 0.1);
+  --color-10: hsl(45, 96%, 49%);
+  --color-10-opacity-0-1: hsla(45, 96%, 49%, 0.1);
+
+  /* --color-1: hsl(56, 55%, 56%); */
 }
