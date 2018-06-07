@@ -191,9 +191,14 @@ class Router {
     window.router = new Router(chapters);
   });
 
+  function _createNewRoute() {
+    return window.location.hash.split('/').map((value, index) =>
+      index === 2 && Number(value) < window.router.currentChapter.pages.length ? Number(value) + 1 : value);
+  }
+
   function addClickEventHandlers() {
     document.getElementById('js-main-body').addEventListener('click', event => {
-      const route = window.location.hash.split('/').map((value, index) => index === 2 ? Number(value) + 1 : value);
+      const route = _createNewRoute();
       let newHash = '';
       for (let value of route) {
         newHash += `${value}/`;
