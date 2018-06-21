@@ -3,6 +3,9 @@
 @import url(mainBody.css);
 @import url(animation.css);
 @import url(config.css);
+body{
+  background-color: var(--background-color);
+}
 article h1 {
   font-size: 2em;
 }
@@ -30,7 +33,10 @@ a {
 }
 
 article>header {
+  /* position: sticky;
+  top: 0; */
   float: left;
+  background-color: var(--background-color);
 }
 
 article>section {
@@ -39,6 +45,13 @@ article>section {
 
 article>section>section {
   margin-bottom: 1.5em;
+}
+
+footer.copyright {
+  margin-right: 1em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 /* article>section>header {

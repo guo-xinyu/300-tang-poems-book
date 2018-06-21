@@ -1,5 +1,6 @@
 :root {
   --main-body-height: 50em;
+  --background-color: rgb(238, 238, 238);
   --color-1: hsl(83, 58%, 49%);
   --color-1-opacity-0-1: hsla(83, 58%, 49%, 0.1);
   --color-2: hsl(289, 58%, 60%);
@@ -20,6 +21,5 @@
   --color-9-opacity-0-1: hsla(155, 66%, 60%, 0.1);
   --color-10: hsl(45, 96%, 49%);
   --color-10-opacity-0-1: hsla(45, 96%, 49%, 0.1);
-
   /* --color-1: hsl(56, 55%, 56%); */
 }

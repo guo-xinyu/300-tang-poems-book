@@ -2,6 +2,7 @@
 section.selected-page {
   float: left;
   width: 40%;
+  background-color: whitesmoke;
   height: var(--main-body-height);
   margin-left: 3em;
   padding: 0 3em 0 3em;

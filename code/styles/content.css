@@ -1,6 +1,9 @@
 section.content {
   float: left;
   width: 85%;
+  background-color: var(--background-color);
+  /* position: sticky;
+  top: 0; */
 }
 
 section.content>ol>li {
@@ -29,7 +32,7 @@ section.content>ol>li {
 section.content>ol>li:hover {
   width: 60%;
   white-space: nowrap;
-  border-bottom: 0.3em solid AliceBlue;
+  border-bottom: 0.3em solid hsl(0, 0%, 76%);
   /* background-color: AliceBlue; */
 }
 

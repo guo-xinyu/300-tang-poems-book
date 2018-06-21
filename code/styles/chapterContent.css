@@ -3,6 +3,8 @@ section.little-content {
   height: var(--main-body-height);
   width: 10em;
   transition: background-color 1s ease-out 1s;
+  /* position: sticky;
+  top: 20; */
   /* background-color: rgba(141, 196, 52, 0.1); */
   /* opacity: 0.1; */
 }
